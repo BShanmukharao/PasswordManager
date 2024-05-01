@@ -1,0 +1,43 @@
+* {
+  font-family: 'Roboto';
+}
+.todoBgContainer {
+  background-color: rgb(229, 255, 254);
+  padding: 10px;
+  min-height: 94vh;
+  max-height: 100%;
+}
+.todoHeading {
+  text-align: center;
+  font-size: 25px;
+}
+.inputAndButtonContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputField {
+  width: 50%;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.addButtonItem {
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px 12px 7px 12px;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: rgb(123, 163, 248);
+  cursor: pointer;
+}
+.ulList {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

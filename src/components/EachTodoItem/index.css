@@ -1,0 +1,35 @@
+.eachListContainer {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: lightgreen;
+  width: 70%;
+  margin-bottom: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkBoxAndName {
+  display: flex;
+  align-items: center;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+.eachCheckBox {
+  height: 20px;
+  width: 20px;
+}
+.eachTodoItem {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.deleteButton {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.CssDecorator {
+  text-decoration: line-through;
+}

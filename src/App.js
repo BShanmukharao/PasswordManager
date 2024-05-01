@@ -1,8 +1,8 @@
-import SearchPage from './components/SearchPage'
+import TodoContainer from './components/TodoContainer'
 
 const App = () => (
   <div>
-    <SearchPage />
+    <TodoContainer />
   </div>
 )
 
